@@ -205,6 +205,7 @@ p {
 }
 
 footer {
+    position: relative;
     background-color: #23272a;
     padding: 50px 40px;
 }
@@ -212,6 +213,7 @@ footer {
 .footer-social-box {
     display: inline-block;
     width: 30%;
+    vertical-align: top;
 }
 
 .footer-title {
@@ -246,4 +248,58 @@ i {
     display: inline-block;
     color: white;
     margin-right: 10px;
+}
+
+.col {
+    display: inline-block;
+    width: calc(70% / 4 - 8px);
+    padding-left: 12px;
+    vertical-align: top;
+}
+
+.col ul {
+    list-style-type: none;
+}
+
+.col li {
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+lh {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer-br {
+    height: 1px;
+    background-color: #495781;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.logo2 {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.registration-button {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    padding: 6px 10px;
+    border-radius: 24px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #8ea1e1;
+}
+
+.registration-button a {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
 }
