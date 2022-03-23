@@ -5,10 +5,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 14px;
+}
+
 .main-button {
-    padding: 4px 6px;
-    border-radius: 18px;
+    padding: 8px 14px;
+    border-radius: 24px;
     border: none;
+    margin: 16px 6px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .main-button a {
@@ -66,21 +73,61 @@
     right: 10%;
     transform: translate(0, -50%);
     height: 26px;
+    padding: 4px 8px;
+    border-radius: 24px;
+    border: none;
 }
 
 .nav-row-button a {
     font-size: 12px;
     color: black;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .section {
     border: 2px solid black; /*debug*/
+    background-image: center;
+    background-size: cover;
 }
 
 .section1 {
     background-image: url(../img/jumbo.png);
-    background-image: center;
-    background-size: cover;
-    height: 200px; /*debug*/
+}
+
+.center-box {
+    text-align: center;
+    padding: 10% 20%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title.white-title, .paragraph.white-paragraph {
+    color: white;
+}
+
+.download-button {
+    box-shadow: 1px 1px 4px black;
+}
+
+.download-button a {
+    color: black;
+}
+
+.browser-button {
+    background-color: black;
+    box-shadow: 1px 1px 4px white;
+}
+
+.browser-button a {
+    color: white;
 }
