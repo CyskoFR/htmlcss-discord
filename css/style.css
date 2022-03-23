@@ -95,18 +95,25 @@ p {
     background-image: url(../img/jumbo.png);
 }
 
-.center-box {
+.section2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section1-box {
     text-align: center;
     padding: 10% 20%;
 }
 
 .title {
+    display: inline-block;
     font-size: 32px;
     font-weight: 700;
     margin: 20px auto;
 }
 
 .paragraph {
+    display: inline-block;
     font-size: 14px;
     font-weight: 500;
 }
@@ -130,4 +137,13 @@ p {
 
 .browser-button a {
     color: white;
+}
+
+.section2-img {
+    width: 50%;
+}
+
+.description-right {
+    display: inline-block;
+    width: 40%;
 }
