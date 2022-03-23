@@ -89,6 +89,7 @@ p {
     border: 2px solid black; /*debug*/
     background-image: center;
     background-size: cover;
+    margin: auto;
 }
 
 .section1 {
@@ -140,11 +141,12 @@ p {
 }
 
 .section2-img {
-    width: 50%;
+    width: 49%;
+    vertical-align: middle;
 }
 
 .description-right {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     vertical-align: top;
 }
