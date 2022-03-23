@@ -146,4 +146,5 @@ p {
 .description-right {
     display: inline-block;
     width: 40%;
+    vertical-align: top;
 }
