@@ -86,7 +86,6 @@ p {
 }
 
 .section {
-    border: 2px solid black; /*debug*/
     background-image: center;
     background-size: cover;
     margin: auto;
@@ -176,5 +175,32 @@ p {
 }
 
 .section5-description {
+    width: 80%;
+    margin: auto;
+}
 
+.section5-img {
+    width: 90%;
+}
+
+.bottom-row {
+    background-image: url(../img/stars.svg);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px auto 20px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.download-button2 {
+    background-color: #8ea1e1;
+}
+
+.download-button2 a {
+    color: white;
+}
+
+.footer-container {
+    background-color: #23272a;
 }
