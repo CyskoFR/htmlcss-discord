@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-button {
+    padding: 4px 6px;
+    border-radius: 18px;
+    border: none;
+}
+
+.main-button a {
+    text-decoration: none;
 }
 
 .container {
@@ -9,25 +20,22 @@
     width: 100%;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .nav-row {
+    position: relative;
     width: 100%;
     text-align: center;
-    height: 50px;
+    min-height: 50px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: #255ee9;
-    overflow: hidden;
 }
 
 .logo {
-    float: left;
-    margin-top: 8px;
+    position: absolute;
+    left: 10%;
+    top: 8px;
 }
 
 .nav-row-section, .nav-row-section li {
@@ -35,11 +43,16 @@
 }
 
 .nav-row-section {
-    margin-top: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .nav-row-section li {
-    margin: 0 16px;
+    margin: 0 12px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .nav-row-section a {
@@ -48,8 +61,21 @@
 }
 
 .nav-row-button {
-    float: right;
-    margin-top: 14px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
+    height: 26px;
+}
+
+.nav-row-button a {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+}
+
+.section {
+    border: 2px solid black; /*debug*/
 }
 
 .section1 {
