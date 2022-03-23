@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-row {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #255ee9;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+.nav-row-section, .nav-row-section li {
+    display: inline-block;
+}
+
+.nav-row-section {
+    margin-top: 14px;
+}
+
+.nav-row-section li {
+    margin: 0 16px;
+}
+
+.nav-row-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-row-button {
+    float: right;
+    margin-top: 14px;
+}
+
+.section1 {
+    background-image: url(../img/jumbo.png);
+    background-image: center;
+    background-size: cover;
+    height: 200px; /*debug*/
+}
